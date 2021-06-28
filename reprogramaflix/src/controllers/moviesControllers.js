@@ -45,14 +45,16 @@ const getByTitle = (request, response) => {
 const getByGenre = (request, response) => {
     // acessar qual o gênero requisitado
     const requestedGenre = request.query.genre;
+    // criar lista para armazenar dados do loop
     let movieList = [];
 
     // comparar todos os itens da lista que são daquele gênero
     movies.forEach(movie => {
+        // separar elementos
         let genreList = movie.genre.split(",")
 
         for (genre of genreList) {
-            if (genre.includes(requestedGenre) && movie.genre.includes(genre)) {
+            if (genre.includes(requestedGenre)) {
                 console.log(movie)
                 movieList.push(movie)
             }
