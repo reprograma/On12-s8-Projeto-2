@@ -1,4 +1,3 @@
-
 const app = require("./src/app.js")
 
 // definir uma porta para o nosso servidor

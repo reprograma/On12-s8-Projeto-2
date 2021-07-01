@@ -42,9 +42,16 @@ const getByTitle = (request, response) => {
 };
 
 // pesquisa por gênero
+// trazer o gênero solicitado
+// percorrer o json de filmes para visualizar todas as listas de gênero de cada filme
+// percorrer cada lista de gênero para verificar se algum deles corresponde ao gênero solicitado
+// retornar o filme que possui o gênero solicitado
+// salvar todos os filmes com o gênero solicitado em uma lista
+
 const getByGenre = (request, response) => {
     // acessar qual o gênero requisitado
     const requestedGenre = request.query.genre;
+
     // criar lista para armazenar dados do loop
     let movieList = [];
 
@@ -55,7 +62,6 @@ const getByGenre = (request, response) => {
 
         for (genre of genreList) {
             if (genre.includes(requestedGenre)) {
-                console.log(movie)
                 movieList.push(movie)
             }
         }
@@ -64,7 +70,7 @@ const getByGenre = (request, response) => {
 
     // retornar a resposta
     response.status(200).send(movieList)
-}
+};
 
 module.exports = {
     home,
@@ -73,3 +79,4 @@ module.exports = {
     getByTitle,
     getByGenre
 }
+
