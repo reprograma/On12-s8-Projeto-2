@@ -2,7 +2,7 @@
 Na pasta ./models vocês encontrarão alguns arquivos .json disponíveis. Segue abaixo algumas sugestões para construir diferentes projetos de API a partir das demandas de negócio (:
 
 ## 1. App de receitas
-
+receitas.json
 ### Demandas de negócio:
 -Quero poder visualizar todas as receitas disponíveis<br />
 -Quero visualizar as receitas por título<br />
@@ -10,7 +10,7 @@ Na pasta ./models vocês encontrarão alguns arquivos .json disponíveis. Segue 
 :eyes: DESAFIO: quero poder visualizar as receitas por ordem de tempo de preparo (do menor tempo para o maior tempo) \o/
 
 ## 2. App Biologia
-
+faunaBrasileira.json
 ### Demandas de negócio:
 -Quero visualizar todos os animais da lista<br />
 -Quero visualizar apenas pelo nome dos animais<br />
@@ -18,7 +18,7 @@ Na pasta ./models vocês encontrarão alguns arquivos .json disponíveis. Segue 
 -Quero filtrar por ameaça de extinção<br />
 
 ## 3. App cultural
-
+gruposDeMaracatu.json
 ### Demandas de negócio:
 -Quero visualizar todos os grupos<br />
 -Quero filtrar por estilo<br />
@@ -27,7 +27,7 @@ Na pasta ./models vocês encontrarão alguns arquivos .json disponíveis. Segue 
 :eyes: DESAFIO: quero visualizar os grupos por ordem cronológica de ano de fundação \o/
 
 ## 4. App de drinks - \O/ DESAFIO \O/
-json todo em inglês
+drinks.json - json todo em inglês
 
 ### Demandas de negócio
 -Neste app, quero visualizar todas as imagens dos drinks<br />
