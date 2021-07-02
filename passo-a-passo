@@ -17,7 +17,7 @@ Sim, o server.js é o arquivo que usamos para ~ configurar ~ o nosso servidor. L
 
 
 2. Instalando as dependências necessárias
-Como já sei exatamente o que vou precisar pra esse projeto, já faço a instação das dependências que preciso. E atualizo os scripts quando necessário
+Como já sei exatamente o que vou precisar pra esse projeto, já faço a instalação das dependências que preciso. E atualizo os scripts quando necessário
 
 [] express 
     $ npm i express
