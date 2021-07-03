@@ -7,11 +7,11 @@ Ao iniciar um projeto, já compreendendo qual modelo de arquitetura queremos usa
 
 Na pasta raiz, ficam os arquivos/pastas de configuração.
 
+[] server.js
 [] package.json
 [] package-lock.json
 [] node-modules/
 [] .gitignore
-[] server.js
 
 Sim, o server.js é o arquivo que usamos para ~ configurar ~ o nosso servidor. Logo, ele fica na pasta raiz do projeto!
 
@@ -84,6 +84,21 @@ O app.js também é o responsável por definir nossa rota padrão!
 7. Mais lógica \O/
 Vamos agora amadurecer as lógicas que estamos construíndo para filtar nossos dados. Ao criar uma nova lógica, também configuro uma nova rota ;)
 
-
     
 
+EXERCÍCIO EM AULA S9
+- Usar um arquivo json (ou de series ou da pasta extra/)
+- Configurar uma API na arquitetura MVC do zero
+    - Pasta raiz com arquivos de configuração
+    - Instalar as dependências que preciso (express e nodemon)
+    - Criar pasta src
+        - Criar pastas (controllers, routes e models)
+        - Criar arquivos dentro de cada pasta
+    - Iniciar o servidor
+    - Configurar o app.js
+    - Configuro rotas
+    - Configura as lógias (controllers)
+        - Trazer tudo do json
+        - Trazer filtrado titulo
+        - Trazer filtrado por id
+    - Ir rodando e testando no postman (:
