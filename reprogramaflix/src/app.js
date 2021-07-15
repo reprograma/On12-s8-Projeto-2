@@ -1,10 +1,11 @@
-const express = require("express"); // importando express
-const app = express(); // instanciando o express para acessar as funcionalidades contidas nele
 
-// chama as rotas
-const movies = require("./routes/moviesRoutes")
+const express = require("express");
+const app = express();
 
-// definir rota padrão
-app.use("/filmes", movies)
+const series = require("./routes/seriesRoutes")
 
-module.exports = app
+app.use("/series", series);
+
+
+
+module.exports = app;
